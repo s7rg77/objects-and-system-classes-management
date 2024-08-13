@@ -13,7 +13,7 @@ public class SergioLopezDev {
     public SergioLopezDev(String name, int age) {
         this.name = name;
         this.age = age;
-        if (age &lt; 0 || age &gt; 100) {
+        if (age < 0 || age > 100) {
             this.age = 0;
             this.name = "INVALID PERSON";
         }
@@ -33,7 +33,7 @@ public class SergioLopezDev {
 
     public void setAge(int age) {
         this.age = age;
-        if (age &lt; 0 || age &gt; 100) {
+        if (age < 0 || age > 100) {
             this.age = 0;
             this.name = "INVALID PERSON";
         }
